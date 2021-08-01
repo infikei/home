@@ -52,7 +52,7 @@ h4 {
     height: 120px;
     background: #204060;
     position: relative;
-    box-shadow: 0px 0px 20px rgba(102, 75, 75, 0.7);
+    box-shadow: 0px 0px 20px rgba(102, 75, 75, 0.3);
 }
 
 .header > div {
