@@ -1,0 +1,21 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #303030;
+}
