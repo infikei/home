@@ -1,6 +1,6 @@
 * {
-    list-style: none;
     text-decoration: none;
+    list-style: none;
     border-collapse: collapse;
     margin: 0px;
     padding: 0px;
@@ -37,12 +37,16 @@ h4 {
     height: 50px;
     border-radius: 50px;
     border: none;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     background: #2F7AF4;
     color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.btn0:focus {
+    outline: 0;
 }
 
 /* header */
