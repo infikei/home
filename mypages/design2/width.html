@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>단위</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/width.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="center">
+        <div class="item-wrap percent-wrap">
+            <h1>%</h1>
+            <div class="item">item 01</div>
+            <div class="item-parent">
+                <div class="item">item 02</div>
+            </div>
+        </div>
+
+        <div class="item-wrap em-wrap">
+            <!-- 폰트 크기에 따른 가변 값 -->
+            <h1>em, rem</h1>
+            <div class="item-parent">
+                <div class="item item-em">item em</div>
+            </div>
+            <div class="item item-rem">item rem</div>
+            <!-- root(최상위 요소) 기준 -->
+        </div>
+
+        <div class="item-wrap v-wrap">
+            <h1>vw, vh</h1>
+            <div class="item item-vw">item vw</div>
+            <div class="item item-vh">item vh</div>
+        </div>
+    </div>
+</body>
+
+</html>
