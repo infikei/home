@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>인피케이 홈페이지</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/newstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/calc.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    
+
     <!-- favicon start -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon.ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon.ico/apple-icon-60x60.png">
@@ -29,34 +29,18 @@
     <meta name="msapplication-TileImage" content="assets/favicon.ico/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- favicon end -->
-
-    <script src="https://kit.fontawesome.com/b6b30345c1.js" crossorigin="anonymous"></script>
-
-    <script src="main.js" defer></script>
 </head>
 
 <body>
-    <nav class="navbar_wrap">
-        <div class="navbar">
-            <div class="navbar_logo" onclick="link_home()">
-                <img src="img/infikei_logo.png" alt="logo">
-                <a href="https://infikei.github.io/home">InfiKei Home</a>
+    <div class="container">
+        <div class="calc-area">
+            <h1>JavaScript Calculator</h1>
+            <div class="num1-area">
+                <span class="inline-block"><input type="number" id="num1" name="number" value="0"/></span>
+                <span class="inline-block"><button onclick="" class="btn0-small">+</button></span>
             </div>
-            <ul class="navbar_menu">
-                <li onclick="link_profile()"><a href="#profile">Profile</a></li>
-                <li onclick="link_blog()"><a href="#blog">Blog</a></li>
-                <li onclick="link_pages()"><a href="#pages">Pages</a></li>
-                <li onclick="link_contact()"><a href="#contact">Contact</a></li>
-            </ul>
-            <ul class="navbar_sns">
-                <li onclick="link_talk()"><i class="far fa-comment"></i></li>
-                <li onclick="link_instagram()"><i class="fab fa-instagram"></i></li>
-            </ul>
-            <a href="#" class="navbar_togglebtn">
-                <i class="fas fa-bars"></i>
-            </a>
         </div>
-    </nav>
+    </div>
 </body>
 
 </html>
