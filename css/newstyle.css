@@ -64,7 +64,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: (100%-40px);
+    width: calc(100% - 40px);
     max-width: 1200px;
     margin: 0 auto;
     padding-left: 20px;
@@ -159,42 +159,46 @@ p {
     color: var(--navbar-text);
 }
 
-/* profile */
-
-.profile_wrap {
+.wrap {
     width: 100%;
     padding-bottom: 60px;
-    background: #77bbff;
 }
-.profile {
+.area {
     width: calc(100% - 40px);
     max-width: 600px;
+    text-align: center;
+}
+
+/* profile */
+
+#profile {
+    background: #77bbff;
+}
+#profile .area {
     margin: 0 auto;
     padding: 140px 20px 20px 20px;
-    text-align: center;
-    /* border: 1px solid red; */
 }
-.profile img {
+#profile img {
     width: 378px;
     height: 378px;
     border-radius: 20px;
     transition: 0.3s;
 }
-.profile img:hover {
+#profile img:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.profile h1 {
+#profile h1 {
     margin-top: 24px;
     margin-bottom: 0;
 }
-.profile .bar0 {
+#profile .bar0 {
     margin: 28px auto 28px auto;
 }
-.profile p {
+#profile p {
     margin-top: 16px;
     color: #505050;
 }
-.profile .blog_inline {
+#profile .inline_btn {
     font-size: 18px;
     font-weight: 700;
     margin: 3px;
@@ -205,7 +209,7 @@ p {
     cursor: pointer;
     transition: 0.3s;
 }
-.profile .blog_inline:hover {
+#profile .inline_btn:hover {
     background: #0055ff;
     color: #fff;
     box-shadow: 0 0 5px rgba(0, 85, 255, 0.7);
@@ -213,34 +217,41 @@ p {
 
 /* blog */
 
-.blog_wrap {
-    width: 100%;
-    padding-bottom: 60px;
-    background: #bb77ff;
+#blog {
+    background: #99ddbb;
 }
-.blog {
-    width: calc(100% - 40px);
-    max-width: 600px;
+#blog .area {
     margin: 0 auto;
     padding: 100px 20px 20px 20px;
-    text-align: center;
-    border: 1px solid red;
 }
-.blog h1 {
+#blog h1 {
     margin-top: 24px;
     margin-bottom: 0;
 }
-.blog .bar0 {
+#blog .bar0 {
     margin: 28px auto 60px auto;
 }
-.blog p {
+#blog p {
     margin-top: 48px;
     margin-bottom: 0;
     color: #505050;
 }
-.blog .btn0 {
+#blog .btn0 {
     margin-top: 16px;
     margin-bottom: 0;
+}
+
+.footer_wrap {
+    width: 100%;
+    background: var(--navbar-bg);
+}
+.footer {
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    height: 140px; /* 임시 */
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
