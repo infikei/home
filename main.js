@@ -11,13 +11,13 @@ function link_pages() {
     location.href="https://infikei.github.io/home/new/#pages";
 }
 function link_contact() {
-    location.href="https://infikei.github.io/new/home/#contact";
+    location.href="https://infikei.github.io/home/new/#contact";
 }
 function link_talk() {
-    location.href="https://pf.kakao.com/_xaeEyT";
+    window.open("https://pf.kakao.com/_xaeEyT");
 }
 function link_instagram() {
-    location.href="https://instagram.com/infikei_photo";
+    window.open("https://instagram.com/infikei_photo", "_blank");
 }
 
 const toggleBtn = document.querySelector('.navbar_togglebtn');
