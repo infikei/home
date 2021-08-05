@@ -14,7 +14,6 @@ h1 {
     padding-top: 50px;
     color: #000;
 }
-
 h4 {
     font-size: 18px;
     font-weight: 400;
@@ -27,11 +26,9 @@ h4 {
 .buttons {
     padding-top: 20px;
 }
-
 .buttons .btn0 {
     margin-top: 20px;
 }
-
 .btn0 {
     width: 240px;
     height: 50px;
@@ -46,11 +43,9 @@ h4 {
     cursor: pointer;
     transition: 0.3s;
 }
-
 .btn0:focus {
     outline: 0;
 }
-
 .btn0:hover {
     background: #0055ff;
     box-shadow: 0px 0px 8px rgba(0, 85, 255, 0.5);
@@ -65,7 +60,6 @@ h4 {
     position: relative;
     box-shadow: 0px 0px 20px rgba(102, 75, 75, 0.3);
 }
-
 .header > div {
     width: 1120px;
     height: 120px;
@@ -73,13 +67,11 @@ h4 {
     display: flex;
     /* background: blue; */
 }
-
 .title_area {
     width: 400px;
     height: 120px;
     /* background: skyblue; */
 }
-
 .title_area > a > p {
     font-size: 42px;
     font-weight: 700;
@@ -87,7 +79,6 @@ h4 {
     margin: 39px 0px 39px 0px;
     color: #fff;
 }
-
 .nav_area {
     width: 720px;
     height: 120px;
@@ -95,14 +86,12 @@ h4 {
     display: flex;
     /* background: lightgreen; */
 }
-
 .nav_area > li {
     margin-left: 80px;
     margin-top: 39px;
     margin-bottom: 39px;
     line-height: 42px;
 }
-
 .nav_area > li > a {
     font-size: 24px;
     font-weight: 700;
@@ -128,4 +117,32 @@ h4 {
     /* background: #629799; */
     background: #e6d1fa;
     text-align: center;
+}
+
+/* new_home */
+
+.new_home_wrap {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.new_home {
+    width: 160px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    background: #ff9900;
+    color: #fff;
+    box-shadow: 0px 0px 16px rgba(255, 153, 0, 0.3);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.new_home:focus {
+    outline: 0;
+}
+.new_home:hover {
+    background: #ff7700;
+    box-shadow: 0px 0px 8px rgba(255, 119, 0, 0.5);
 }
