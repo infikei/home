@@ -306,8 +306,10 @@ p {
         margin-bottom: 12px;
     }
     .navbar_menu > li {
-        width: 100%;
+        width: calc(100% - 40px);
         padding: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
         text-align: center;
     }
     .navbar_sns {
@@ -337,23 +339,20 @@ p {
         height: 6px;
     }
     .btn0 {
-        width: 140px;
-        height: 32px;
-        border-radius: 32px;
-        box-shadow: 0px 0px 8px rgba(0, 119, 255, 0.3);
-        font-size: 12px;
+        width: 160px;
+        height: 40px;
+        border-radius: 40px;
+        box-shadow: 0px 0px 10px rgba(0, 119, 255, 0.3);
+        font-size: 14px;
     }
     .btn0:hover {
-        box-shadow: 0px 0px 4px rgba(0, 85, 255, 0.5);
+        box-shadow: 0px 0px 5px rgba(0, 85, 255, 0.5);
     }
     .wrap {
-        width: 100%;
         padding-bottom: 40px;
     }
     .area {
-        width: calc(100% - 40px);
         max-width: 320px;
-        text-align: center;
     }
 
     /* navbar */
@@ -362,8 +361,7 @@ p {
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
     }
     .navbar {
-        margin: 0 auto;
-        padding: 8px 20px;
+        padding: 6px 20px;
     }
     .navbar_logo img {
         width: 40px;
@@ -372,8 +370,7 @@ p {
         border-radius: 40px;
     }
     .navbar_logo a {
-        margin-left: 10px;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 52px;
     }
     .navbar_menu {
@@ -381,31 +378,34 @@ p {
         margin-bottom: 10px;
     }
     .navbar_menu > li {
+        width: calc(100% - 24px);
         padding: 10px;
+        margin-left: 12px;
+        margin-right: 12px;
         border-radius: 6px;
     }
     .navbar_menu > li > a {
         font-size: 16px;
     }
     .navbar_sns {
-        margin-bottom: 6px;
+        margin-bottom: 2px;
     }
     .navbar_sns > li {
-        width: 32px;
-        height: 32px;
+        width: 28px;
+        height: 28px;
         border-radius: 6px;
         margin-bottom: 6px;
     }
     .navbar_sns > li:first-child {
-        margin-right: 12px;
+        margin-right: 10px;
     }
     .navbar_sns i {
-        font-size: 20px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 28px;
     }
     .navbar_togglebtn {
-        top: 18px;
-        right: 18px;
+        top: 16px;
+        right: 16px;
         width: 32px;
         height: 32px;
         border-radius: 6px;
@@ -450,5 +450,39 @@ p {
 
     /* blog */
 
-    
+    #blog .area {
+        padding: 60px 20px 20px 20px;
+    }
+    #blog h1 {
+        margin-top: 16px;
+    }
+    #blog .bar0 {
+        margin: 18px auto 42px auto;
+    }
+    #blog p {
+        margin-top: 40px;
+    }
+    #blog .btn0 {
+        margin-top: 12px;
+    }
+
+    /* footer */
+
+    /* new_home */
+
+    .new_home_wrap {
+        right: 16px;
+        bottom: 16px;
+    }
+    .new_home {
+        width: 120px;
+        height: 48px;
+        border-radius: 48px;
+        box-shadow: 0px 0px 8px rgba(255, 153, 0, 0.3);
+        font-size: 14px;
+    }
+    .new_home:hover {
+        box-shadow: 0px 0px 4px rgba(255, 119, 0, 0.5);
+    }
+
 }
