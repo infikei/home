@@ -81,11 +81,13 @@ p {
 }
 .navbar_logo {
     cursor: pointer;
+    margin-top: 10px; /* new */
+    margin-bottom: 10px; /* new */
 }
 .navbar_logo img {
     width: 50px;
     height: 50px;
-    margin-top: 15px;
+    margin-top: 5px; /* 15px */
     border-radius: 50px;
     background-color: var(--navbar-logo);
     float: left;
@@ -95,7 +97,7 @@ p {
     color: var(--navbar-text);
     font-size: 28px;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 60px; /* 80px */
 }
 .navbar_menu {
     display: flex;
@@ -283,6 +285,27 @@ p {
     box-shadow: 0px 0px 6px rgba(255, 119, 0, 0.5);
 }
 
+@media screen and (min-width: 769px) {
+    .navbar_logo {
+        border-radius: 60px;
+        padding-left: 5px;
+        padding-right: 7px;
+        transition: 0.3s;
+    }
+    .navbar_logo:hover {
+        background: #404040;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 840px) {
+    .navbar_menu > li {
+        padding: 8px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* navbar */
 
@@ -291,11 +314,15 @@ p {
         align-items: flex-start;
         padding: 8px 20px;
     }
+    .navbar_logo {
+        margin-top: 6px; /* new */
+        margin-bottom: 6px; /* new */
+    }
     .navbar_logo img {
-        margin-top: 7px;
+        margin-top: 1px; /* 7px */
     }
     .navbar_logo a {
-        line-height: 64px;
+        line-height: 52px; /* 64px */
     }
     .navbar_menu {
         display: none;
@@ -368,6 +395,10 @@ p {
         height: 40px;
         margin-top: 6px;
         border-radius: 40px;
+    }
+    .navbar_logo {
+        margin-top: 0; /* new */
+        margin-bottom: 0; /* new */
     }
     .navbar_logo a {
         font-size: 22px;
